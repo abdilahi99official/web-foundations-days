@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Draft Toolkit | Day 4</title>
+    <!-- Linked stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Defer ensures script runs after DOM is parsed -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Note Draft Toolkit</h1>
+
+        <div class="editor-section">
+            <label for="note-text">New note draft</label>
+            <textarea id="note-text" placeholder="Type your notes here..."></textarea>
+
+            <div class="counters">
+                <p id="char-count">0 / 200 characters</p>
+                <p id="word-count">0 words</p>
+            </div>
+
+            <div class="actions">
+                <button id="clear-btn" type="button">Clear</button>
+                <button id="theme-toggle" type="button">Dark mode</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
