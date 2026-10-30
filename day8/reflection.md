@@ -1,0 +1,6 @@
+```markdown
+Reflecting on this web development journey, the most difficult concept for me was mastering asynchronous JavaScript execution and robust error handling when dealing with network requests (`async/await`, `try/catch`, and state synchronization). Initially, managing loading spinners, disabled button states, and edge cases like failed fetches felt overwhelming. I overcame this by breaking down asynchronous flows into predictable lifecycle stages and practicing defensive programming patterns across multiple labs and projects.
+
+Based on feedback from my capstone project, I would improve my application by implementing more comprehensive automated unit testing and stricter input sanitization to catch edge cases before deployment. Ensuring bulletproof form validation and graceful degradation under malformed data inputs is crucial for production readiness.
+
+Looking ahead, my next learning goal is to transition my foundational understanding of web systems into mastering Python. Because Python powers everything from backend web frameworks (like Django and FastAPI) to data science and task automation, I am eager to apply my knowledge of logic, APIs, and data structures to build powerful Python-backed applications.
